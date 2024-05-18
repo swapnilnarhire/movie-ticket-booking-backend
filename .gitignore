@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+build/
+dist/
+.build/
+
+# Environment files
+.env*  # Ignores all files starting with .env
+
+# Logs
+*.log
+
+# Testing coverage reports
+coverage/
+
+# IDE specific files
+# Adjust based on your IDE
+.idea/
+.vscode/
+
+# Temporary files
+npm-debug.log
+
+# Compiled files (if applicable)
+*.@(o|g|so|dylib|dll)
+
+# Specific test runner files
+jest/*.json
+
+# Editor preferences
+.eslintrc.json
+.prettierrc.json
